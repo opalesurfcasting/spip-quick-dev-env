@@ -35,7 +35,7 @@ In a third console :
 `spip core:installer --db-server=mysql --db-login=thelogin --db-pass=thepass --db-host=the.docker.db.ip`
 
 ## (if needed) Upload original Spip website dataset to mysql db container 
-`mysql -u thelogin -p -P 3306 -h host=the.docker.db.ip -p spip < ~/way-to/dump.sql`
+`mysql -u thelogin -P 3306 -h the.docker.db.ip -p spip < ~/way-to/dump.sql`
 
 ## Update original spip site host to local dev host :
 `spip config:ecrire adresse_site:'http://localhost:8000'`

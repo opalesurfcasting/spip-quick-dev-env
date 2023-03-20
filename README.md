@@ -38,7 +38,7 @@ In a third console :
 `mysql -u thelogin -P 3306 -h the.docker.db.ip -p spip < ~/way-to/dump.sql`
 
 ## Update original spip site host to local dev host :
-`spip config:ecrire adresse_site:'http://localhost:8000'`
+`spip config:ecrire -f tmp/adresse_site.json`
 
 ## Create original plugins list from original spip site dataset
 `spip plugins:lister -e`

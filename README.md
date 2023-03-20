@@ -1,4 +1,4 @@
-# Quick spip dev environment with docker, spip-cli and php, reminder
+# Reminder for quick [Spip](https://www.spip.net/) dev environment with docker, spip-cli and php
 
 Prerequisites :
 - docker, composer, php (with update-alternatives if needed), spip-cli

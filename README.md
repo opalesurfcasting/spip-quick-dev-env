@@ -9,7 +9,7 @@ Docs :
 
 In one console :
 ## Run docker mysql container
-`docker run --name db -e MYSQL_ROOT_PASSWORD=therootpassword -p 33060:3306 -d mysql:5.7 --character-set-server=utf8 --collation-server=utf8_unicode_ci`
+`docker run --name db -e MYSQL_ROOT_PASSWORD=1234 -p 33060:3306 -v $(pwd)/db-vol:/var/lib/mysql -d mysql:5.7 --character-set-server=utf8 --collation-server=utf8_unicode_ci`
 
 ## Run logs for mysql db container
 `docker logs db -f`

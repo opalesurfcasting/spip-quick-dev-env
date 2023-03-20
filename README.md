@@ -1,4 +1,4 @@
-# Reminder for quick [Spip](https://www.spip.net/) dev environment setup with docker, spip-cli and php
+# Reminder for quick [Spip](https://www.spip.net/) local dev environment setup with docker, spip-cli and php
 
 Prerequisites :
 - docker, composer, php (with update-alternatives if needed), spip-cli

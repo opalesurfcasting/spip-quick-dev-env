@@ -43,7 +43,7 @@ In a third console :
 ## Create original plugins list from original spip site dataset
 `spip plugins:lister -e`
 
-## Install plugins from original plugins list (some plugins may not be available and will need a manual installation from spip admin in)
+## Install plugins from original plugins list (some plugins may not be available and will need a manual installation from spip admin)
 `spip plugins:activer --from-file=tmp/plugins.txt` or `spip plugins:activer -e`
 
 ## Clear Spip caches

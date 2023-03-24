@@ -64,3 +64,5 @@ Sources :
 - https://hub.docker.com/r/ipeos/spip/#!
 - https://www.spip.net/fr_rubrique91.html
 - https://git.spip.net/spip-contrib-outils/spip-cli
+
+- https://www.spip.net/fr_article884.html

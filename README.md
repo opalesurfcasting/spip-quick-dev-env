@@ -65,4 +65,5 @@ Sources :
 - https://www.spip.net/fr_rubrique91.html
 - https://git.spip.net/spip-contrib-outils/spip-cli
 
+Des sites sous SPIP :
 - https://www.spip.net/fr_article884.html

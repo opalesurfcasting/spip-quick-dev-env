@@ -32,7 +32,7 @@ In a third console :
 ### Create needed directories
 `spip core:preparer`
 ### Connect to db and create config files
-`spip core:installer --db-server=mysql --db-login=thelogin --db-pass=thepass --db-host=the.docker.db.ip`
+`spip core:installer --db-server=mysql --db-login=thelogin --db-pass=1234 --db-host=the.docker.db.ip`
 
 ## (if needed) Upload original Spip website dataset to mysql db container 
 `mysql -u thelogin -P 3306 -h the.docker.db.ip -p spip < ~/way-to/dump.sql`
